@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OTA_HotelResNotifRS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EchoToken="" Target="Test" Version="1" TransactionIdentifier="" SequenceNmbr="" TransactionStatusCode="End" xmlns="http://www.opentravel.org/OTA/2003/05">
+ <Success />
+ <HotelReservations>
+  <HotelReservation RoomStayReservation="true" CreateDateTime="2022-04-23T01:01:10" LastModifyDateTime="2022-04-23T01:01:10">
+   <UniqueID Type="1" ID="308502" ID_Context="CrsConfirmNumber" />
+   <ResGlobalInfo>
+    <HotelReservationIDs>
+     <HotelReservationID ResID_Type="14" ResID_Value="36620899" ResID_SourceContext="PmsConfirmNumber" />
+     <HotelReservationID ResID_Type="1" ResID_Value="308502" ResID_SourceContext="CrsConfirmNumber" />
+    </HotelReservationIDs>
+   </ResGlobalInfo>
+  </HotelReservation>
+ </HotelReservations>
+</OTA_HotelResNotifRS>
